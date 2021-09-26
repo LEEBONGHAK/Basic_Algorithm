@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-// 두 수의 최소 공약수 구하는 함수 - 유클리드 호제법 사용
+// 두 수의 최대 공약수 구하는 함수 - 유클리드 호제법 사용
 int great_commom_divisor(int m, int n) {
 
 	int temp;
@@ -22,7 +22,7 @@ int great_commom_divisor(int m, int n) {
 	return n;
 }
 
-// 두 수의 최대 공배수 구하는 함수 - 두 수의 곱 / 최대 공약수
+// 두 수의 최소 공배수 구하는 함수 - 두 수의 곱 / 최대 공약수
 int least_common_multiple(int m, int n) {
 	
 	return m * n / great_commom_divisor(m, n);
