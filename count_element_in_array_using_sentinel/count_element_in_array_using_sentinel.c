@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 
+// 배열의 개수 구하기
 int main() {
 
 	int sentinel_array[6] = { 40,13,89,52,7,-1 };

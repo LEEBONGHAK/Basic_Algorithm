@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 
+// 데이터 교환
 void swap(int* n, int* m) {
 	int temp = *n;
 	*n = *m;
